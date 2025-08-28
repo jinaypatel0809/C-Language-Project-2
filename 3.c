@@ -4,11 +4,11 @@ int main() {
     int score;
     char grade;
 
-    // Input score
+
     printf("Enter your score: ");
     scanf("%d", &score);
 
-    // Determine grade
+
     if (score >= 90)
         grade = 'A';
     else if (score >= 75)
@@ -20,10 +20,10 @@ int main() {
     else
         grade = 'F';
 
-    // Print grade
+
     printf("Your grade is %c. ", grade);
 
-    // Eligibility check
+
     if (grade == 'F') {
         printf("Please try again next time.\n");
     } else {
